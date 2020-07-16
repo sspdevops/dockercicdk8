@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: spring-pod
   namespace: springns
-  label: 
+  labels: 
     app: spring 
     env: dev 
 spec: 
