@@ -1,0 +1,15 @@
+apiVersion: v1 
+kind: Service 
+metadata: 
+  name: springsvc 
+  namespace: springns
+  labels: 
+    app: spring 
+    env: dev 
+spec:
+  type: LoadBalancer 
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: spring 
