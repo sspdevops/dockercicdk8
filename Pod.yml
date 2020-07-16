@@ -11,5 +11,5 @@ spec:
   - image: 489064644984.dkr.ecr.us-east-1.amazonaws.com/dockercicdk8:2
     name: spring-con 
     ports:
-    - ContainerPort: 8080
+    - containerPort: 8080
       protocol: TCP     
